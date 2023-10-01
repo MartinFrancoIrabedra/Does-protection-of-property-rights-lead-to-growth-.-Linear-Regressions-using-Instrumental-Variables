@@ -11,6 +11,7 @@ In the first stage, a new variable is created using the instrument variable.
 The second stage then uses the model estimated values from stage one instead of the actual values of the problematic predictors to calculate the OLS model.
 
 First stage  : X = a0 + a1*Z + a2*W + v
+
 Second stage : Y = B0 + B1*X + B2*W + e
 
 being v,e the error terms, Z the instrument, X the treatment and X in the second stage being the predicted values of X, Y the outcome and W the controls.

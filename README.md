@@ -16,3 +16,6 @@ Second stage : Y = B0 + B1*X + B2*W + e
 being v,e the error terms, Z the instrument, X the treatment and X in the second stage being the predicted values of X, Y the outcome and W the controls.
 
 If the instrument is exogenous (which is assumed), the estimated value will not be correlated with the error term.
+
+In this project the work The Colonial Origins of Comparative Development: An Empirical Investigation from Acemoglu, Johnson, and Robinson will be analyzed.It assess the particular hypothesis that the protection of property rights is conducive to growth, and therefore should be correlated with the level of contemporary per capita income.
+AJR suggested using the mortality of European colonial settlers as an instrument for property rights protection. This is because European imperial powers set up different institutions in various countries depending on whether they decided to settle there or whether they decided simply to exploit the natural resources of the colony.

@@ -1,4 +1,4 @@
-# Linear Regressions using Instrumental Variables (2SLS case)
+# Does protection of property rights lead to growth? Linear Regressions using Instrumental Variables (2SLS case)
 
 Does protection of property rights lead to growth?
 Property rights are in the Universal Declaration of Human Rights and respecting it might lead to an increment not only in the conception of ethics but also in economical factors. I tested the hypothesis of whether the protection of property rights lead to economical growth using a linear regression. The problem that sometimes appears with linear regression is endogenity, which is when an independent variable is correlated with the error term. The IV estimator can potentially solve endogeneity problems in much the same way as a randomized experiment but you need to find a valid instrument.

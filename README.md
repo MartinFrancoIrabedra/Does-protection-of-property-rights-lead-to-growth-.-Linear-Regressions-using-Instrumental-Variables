@@ -10,7 +10,7 @@ The process for the 2SLS is :
 In the first stage, a new variable is created using the instrument variable.
 The second stage then uses the model estimated values from stage one instead of the actual values of the problematic predictors to calculate the OLS model.
 
-First stage  : X = a0 + a1*Z + a2*W + v
+First stage  : X = A0 + A1*Z + A2*W + v
 
 Second stage : Y = B0 + B1*X + B2*W + e
 

@@ -1,6 +1,10 @@
-# Linear-regressions-using-instrumental-variables-2SLS-case-
+# Linear Regressions using Instrumental Variables (2SLS case)
 
-The IV estimator can potentially solve endogeneity problems in much the same way as a randomized experiment but you need to find a valid instrument.
+Does protection of property rights lead to growth?
+Property rights are in the Universal Declaration of Human Rights and respecting it might lead to an increment not only in the conception of ethics but also in economical factors. I tested the hypothesis of whether the protection of property rights lead to economical growth using a linear regression. The problem that sometimes appears with linear regression is endogenity, which is when an independent variable is correlated with the error term. The IV estimator can potentially solve endogeneity problems in much the same way as a randomized experiment but you need to find a valid instrument.
+
+Growth should be correlated with the level of contemporary per capita income. In the study of AJR, it is suggested that using the mortality of European colonial settlers as an instrument for property rights protection. This is because European imperial powers set up different institutions in various countries depending on whether they decided to settle there or whether they decided simply to exploit the natural resources of the colony.
+
 We need two assumptions for a valid IV:
 1) There must be correlation between z and x conditional on all other variables in a system.
 2) The variable can be excluded from the main equation of interest. Two important parts to this assumption:
@@ -15,8 +19,5 @@ First stage  : X = A0 + A1*Z + A2*W + v
 Second stage : Y = B0 + B1*X + B2*W + e
 
 being v,e the error terms, Z the instrument, X the treatment and X in the second stage being the predicted values of X, Y the outcome and W the controls.
-
 If the instrument is exogenous (which is assumed), the estimated value will not be correlated with the error term.
 
-In this project the work The Colonial Origins of Comparative Development: An Empirical Investigation from Acemoglu, Johnson, and Robinson will be analyzed.It assess the particular hypothesis that the protection of property rights is conducive to growth, and therefore should be correlated with the level of contemporary per capita income.
-AJR suggested using the mortality of European colonial settlers as an instrument for property rights protection. This is because European imperial powers set up different institutions in various countries depending on whether they decided to settle there or whether they decided simply to exploit the natural resources of the colony.

@@ -5,8 +5,9 @@ from scipy import stats
 from linearmodels import IV2SLS
 from statsmodels.api import add_constant
 
-data = pd.read_stata("/Users/martinfranco/Desktop/Universität/Mikroökonomik/Applied Microeconometrics/Exercises/dta/ajr.dta")
-data.to_csv("/Users/martinfranco/Desktop/Universität/Mikroökonomik/Applied Microeconometrics/Exercises/dta/ajr.dta")
+url = "https://github.com/MartinFrancoIrabedra/Linear-regressions-using-instrumental-variables-2SLS-case-/blob/main/Data/ajr.dta"
+data = pd.read_stata(url, index_col=0)
+data.to_csv(url)
 print(data)
 
 #### OLS regression of loggdp on risk.
